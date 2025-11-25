@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4f6fa;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: white;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.hero-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px;
+    background: white;
+    margin: 25px;
+    border-radius: 8px;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #e9efff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* Projects */
+.project-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.project-card {
+    background: #eef6ff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* Responsiveness */
+@media(max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+}

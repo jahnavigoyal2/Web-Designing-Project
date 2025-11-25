@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <h2 class="logo">My Portfolio</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Jahnavi Goyal</h1>
+            <p>3rd-Year B.Tech Computer Engineering | Aspiring UX Designer | Passionate About User-Centered Digital Experiences</p>
+        </div>
+        <div class="hero-img">
+            <img src="images/myphoto.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+   <!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>
+        Hello! I’m a Third-year B.Tech Computer Engineering student 🎓 with a growing passion 
+        for UX Design 🎨. I’m fascinated by how thoughtful design can transform digital 
+        experiences and make technology more intuitive, accessible, and enjoyable for users ✨.
+    </p>
+    <p>
+        I’m currently building my foundation in UX by exploring user research, information 
+        architecture, wireframing, prototyping, and usability testing 🔍📐. With every project, 
+        I’m developing a deeper understanding of how to create meaningful, user-centered 
+        experiences 👥❤️.
+    </p>
+    <p>
+        I strongly believe in continuous learning, creativity, and collaboration 🌱🤝. I’m excited 
+        to connect with designers and professionals in the field to exchange ideas, gain 
+        insights, and grow in my UX journey 🚀.
+    </p>
+    <p>
+        Let’s connect and explore the world of user experience design together! 🌍💡
+    </p>
+</section>
+
+<style>
+    .about-section {
+        width: 90%;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        line-height: 1.7;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+    }
+
+    .about-section h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 26px;
+        color: #333;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        color: #555;
+        text-align: justify;
+    }
+</style>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML & CSS</div>
+            <div class="skill-card">User Centered Design</div>
+            <div class="skill-card">Usability Testing</div>
+            <div class="skill-card">Figma(Design Software)</div>
+            <div class="skill-card">Wireframing</div>
+            <div class="skill-card">User Research </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <h3>Secure Messaging Chat System – UI/UX Case Study</h3>
+            <p><strong>Overview:</strong><br>
+            Designed a secure and user-friendly chat application that allows encrypted communication. The goal was to make cybersecurity features simple and intuitive for non-technical users.</p>
+
+            <p><strong>My UX Role & Process:</strong></p>
+            <ul>
+                <li>Conducted user research on perceptions of online privacy.</li>
+                <li>Designed a clean, minimal chat interface with clear hierarchy.</li>
+                <li>Added visual cues like lock icons and encryption indicators.</li>
+                <li>Improved user flows for sending/receiving messages.</li>
+                <li>Focused on contrast, typography, and accessible interactions.</li>
+            </ul>
+
+            <p><strong>Outcome:</strong><br>
+            A modern and user-friendly chat interface that improves user confidence and makes secure messaging feel simple and approachable.</p>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <h3>UX Case Study – Blockchain-Based Rental Agreement System</h3>
+
+            <p><strong>Project Overview:</strong><br>
+            Digitized the rental agreement process using blockchain to make agreements secure, transparent, and easy to sign digitally.</p>
+
+            <p><strong>Problem:</strong><br>
+            Traditional agreements require manual paperwork, signatures, and are prone to forgery or loss. Users needed a faster, reliable digital alternative.</p>
+
+            <p><strong>Design Approach:</strong></p>
+            <ul>
+                <li>Clean and professional UI layout.</li>
+                <li>Clear visibility of agreement status and involved parties.</li>
+                <li>Guided signing process with minimal steps.</li>
+                <li>Status indicators such as timestamps and verification labels.</li>
+            </ul>
+
+            <p><strong>Outcome:</strong><br>
+            ✔ Simplified rental agreements  
+            ✔ Made blockchain invisible and easy for users  
+            ✔ Boosted trust with transparent status updates</p>
+        </div>
+
+    </div>
+</section>
+  <!--CONTACT-->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <button id="showEmail">jahnavigoyal23@gmail.com</button>
+    <p id="email" style="display:none;">youremail@example.com</p>
+
+    <!-- LinkedIn Link -->
+    <p class="linkedin">
+        <strong>LinkedIn:</strong>
+        <a href="www.linkedin.com/in/jahnavi-goyal-978319284" target="_blank">
+            Visit My LinkedIn Profile
+        </a>
+    </p>
+</section>
+
+            
+
+<script src="script.js"></script>
+</body>
+</html>
